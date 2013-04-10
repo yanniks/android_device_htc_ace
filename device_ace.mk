@@ -138,7 +138,8 @@ PRODUCT_PACKAGES += \
 
 # Build extra non-CM packages
 PRODUCT_PACKAGES += \
-   Torch
+   Torch \
+   FM
 
 # GPS / BT / Lights / Sensors
 PRODUCT_PACKAGES += \
