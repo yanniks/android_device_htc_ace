@@ -35,11 +35,6 @@ PRODUCT_COPY_FILES += \
     device/htc/ace/ramdisk/init.spade.rc:root/init.spade.rc \
     device/htc/ace/ramdisk/ueventd.spade.rc:root/ueventd.spade.rc
 
-# Media Profiles
-PRODUCT_COPY_FILES += \
-    device/htc/ace/configs/media_profiles.xml:system/etc/media_profiles.xml \
-	device/htc/ace/configs/media_codecs.xml:system/etc/media_codecs.xml
-
 # GPS config
 PRODUCT_COPY_FILES += device/htc/ace/configs/gps.conf:system/etc/gps.conf
 
@@ -165,9 +160,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # We have enough space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
-
-# lower the increment
-ADDITIONAL_BUILD_PROPERTIES += dalvik.vm.heapgrowthlimit=36m
 
 # Set build date
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
