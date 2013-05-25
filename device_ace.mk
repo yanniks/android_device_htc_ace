@@ -135,10 +135,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    Torch
 
-# GPS / BT / Lights / Sensors
+# GPS / BT / Lights / Radio / Sensors
 PRODUCT_PACKAGES += \
     libbt-vendor \
     gps.spade \
+    FmRadio \
     librpc \
     lights.spade \
     sensors.spade
