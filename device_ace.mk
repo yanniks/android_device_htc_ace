@@ -140,6 +140,7 @@ PRODUCT_PACKAGES += \
         libbt-vendor \
         gps.spade \
         FmRadio \
+        ProximitySensor \
         librpc \
         lights.spade \
         sensors.spade
