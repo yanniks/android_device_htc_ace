@@ -1,18 +1,15 @@
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/pa/config/pa_common.mk)
 
 # Release Name
 PRODUCT_RELEASE_NAME := DHD
 
 TARGET_BOOTANIMATION_NAME := 480
 
-# Inherit CM stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
-
 # Inherit AOSP device configuration for ace
 $(call inherit-product, device/htc/ace/device_ace.mk)
 
-PRODUCT_NAME := cm_ace
+PRODUCT_NAME := pa_ace
 PRODUCT_DEVICE := ace
 PRODUCT_BRAND := htc_wwe
 PRODUCT_MODEL := Desire HD
