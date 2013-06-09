@@ -13,9 +13,3 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-MOD_SRC := device/htc/ace/prebuilt
-
-PRODUCT_COPY_FILES += $(shell \
-    find $(MOD_SRC) -name '*.ko' \
-    | sed -r 's/^\/?(.*\/)([^/ ]+)$$/\1\2:system\/lib\/modules\/\2/' \
-    | tr '\n' ' ')
