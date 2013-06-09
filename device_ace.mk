@@ -22,7 +22,9 @@ $(call inherit-product, device/htc/msm7x30-common/msm7x30.mk)
 
 # HTC Audio
 $(call inherit-product, device/htc/ace/media_a1026.mk)
-$(call inherit-product, device/htc/ace/media_htcaudio.mk)
+
+# call ace.mk
+$(call inherit-product, device/htc/ace/ace.mk)
 
 # Inherit qcom proprietary blobs
 $(call inherit-product, vendor/qcom/proprietary/qcom-vendor.mk)
@@ -34,13 +36,6 @@ PRODUCT_COPY_FILES += \
 	device/htc/ace/ramdisk/fstab.spade:root/fstab.spade \
 	device/htc/ace/ramdisk/init.spade.rc:root/init.spade.rc \
 	device/htc/ace/ramdisk/ueventd.spade.rc:root/ueventd.spade.rc
-
-# Install prebuilt kernel
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/kernel:kernel
-
-# Install ace kernel modules from prebuilt
-$(call inherit-product, $(LOCAL_PATH)/ace-modules.mk)
 
 # GPS config
 PRODUCT_COPY_FILES += device/htc/ace/configs/gps.conf:system/etc/gps.conf
