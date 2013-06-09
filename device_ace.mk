@@ -35,6 +35,13 @@ PRODUCT_COPY_FILES += \
 	device/htc/ace/ramdisk/init.spade.rc:root/init.spade.rc \
 	device/htc/ace/ramdisk/ueventd.spade.rc:root/ueventd.spade.rc
 
+# Install prebuilt kernel
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/kernel:kernel
+
+# Install ace kernel modules from prebuilt
+$(call inherit-product, $(LOCAL_PATH)/ace-modules.mk)
+
 # GPS config
 PRODUCT_COPY_FILES += device/htc/ace/configs/gps.conf:system/etc/gps.conf
 
