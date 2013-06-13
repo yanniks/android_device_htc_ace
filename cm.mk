@@ -7,7 +7,7 @@ PRODUCT_RELEASE_NAME := DHD
 TARGET_BOOTANIMATION_NAME := 480
 
 # Inherit AOSP device configuration for ace
-$(call inherit-product, device/htc/ace/device_ace.mk)
+$(call inherit-product, device/htc/ace/device.mk)
 
 PRODUCT_NAME := pa_ace
 PRODUCT_DEVICE := ace
