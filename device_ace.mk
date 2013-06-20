@@ -176,6 +176,12 @@ PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_LOCALES += en_US
 
+# Goo.im support
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.goo.developerid=Mustaavalkosta \
+	ro.goo.rom=MustaCMTenPointOne \
+	ro.goo.version=$(shell date -u +%Y%m%d)
+
 # call the proprietary setup
 $(call inherit-product, vendor/htc/ace/ace-vendor.mk)
 

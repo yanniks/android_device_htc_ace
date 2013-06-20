@@ -131,6 +131,21 @@ on boot
     # Advanced settings
     chown root system /sys/android_touch/sweep2wake
     chmod 0664 /sys/android_touch/sweep2wake
+<<<<<<< HEAD
+=======
+    chown root system /sys/android_touch/s2w_allow_stroke
+    chmod 0664 /sys/android_touch/s2w_allow_stroke
+    chown root system /sys/android_touch/s2w_min_distance
+    chmod 0664 /sys/android_touch/s2w_min_distance
+    chown root system /sys/android_touch/s2w_register_threshold
+    chmod 0664 /sys/android_touch/s2w_register_threshold
+    chown root system /sys/android_touch/doubletap2wake
+    chmod 0664 /sys/android_touch/doubletap2wake
+    chown root system /sys/android_touch/dt2w_max_duration
+    chmod 0664 /sys/android_touch/dt2w_max_duration
+    chown root system /sys/android_touch/dt2w_min_duration
+    chmod 0664 /sys/android_touch/dt2w_min_duration
+>>>>>>> 345a48f8a12520ef2d3ddc06c8805ad711430bc3
     chown root system /sys/kernel/fast_charge/force_fast_charge
     chmod 0664 /sys/kernel/fast_charge/force_fast_charge
 
@@ -189,7 +204,11 @@ service iprenew_wlan0 /system/bin/dhcpcd -n
     class late_start
     disabled
     oneshot
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> 345a48f8a12520ef2d3ddc06c8805ad711430bc3
 service iprenew_bnep0 /system/bin/dhcpcd -n
     class main
     disabled
@@ -211,3 +230,24 @@ service bugreport /system/bin/bugmailer.sh -v
 service rmt_storage /system/bin/rmt_storage /dev/block/mmcblk0p13 /dev/block/mmcblk0p14
     class core
     user root
+<<<<<<< HEAD
+=======
+
+service htc_ebdlogd /system/bin/htc_ebdlogd -s -k -P 7
+    class main
+    user root
+    disabled
+    oneshot
+
+service htc_ebdlogd_rel /system/bin/htc_ebdlogd -s -k
+    class main
+    user root
+    disabled
+    oneshot
+
+on property:ro.build.tags=test-keys
+    start htc_ebdlogd
+
+on property:ro.build.tags=release-keys
+    start htc_ebdlogd_rel
+>>>>>>> 345a48f8a12520ef2d3ddc06c8805ad711430bc3
