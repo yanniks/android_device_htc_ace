@@ -1,5 +1,6 @@
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/pa/config/pa_common.mk)
+$(call inherit-product, vendor/liquid/config/common_phone.mk)
+$(call inherit-product, vendor/liquid/config/common_gsm.mk)
 
 # Release Name
 PRODUCT_RELEASE_NAME := DHD
