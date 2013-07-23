@@ -131,8 +131,6 @@ on boot
     # Advanced settings
     chown root system /sys/android_touch/sweep2wake
     chmod 0664 /sys/android_touch/sweep2wake
-<<<<<<< HEAD
-=======
     chown root system /sys/android_touch/s2w_allow_stroke
     chmod 0664 /sys/android_touch/s2w_allow_stroke
     chown root system /sys/android_touch/s2w_min_distance
@@ -145,7 +143,10 @@ on boot
     chmod 0664 /sys/android_touch/dt2w_max_duration
     chown root system /sys/android_touch/dt2w_min_duration
     chmod 0664 /sys/android_touch/dt2w_min_duration
+<<<<<<< HEAD
 >>>>>>> 345a48f8a12520ef2d3ddc06c8805ad711430bc3
+=======
+>>>>>>> d26d40423849818a68e6f6732768d5d9d0c377b2
     chown root system /sys/kernel/fast_charge/force_fast_charge
     chmod 0664 /sys/kernel/fast_charge/force_fast_charge
 
@@ -199,16 +200,20 @@ service dhcpcd_bnep0 /system/bin/dhcpcd -ABKL
     class main
     disabled
     oneshot
-    
+
 service iprenew_wlan0 /system/bin/dhcpcd -n
     class late_start
     disabled
     oneshot
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 =======
 
 >>>>>>> 345a48f8a12520ef2d3ddc06c8805ad711430bc3
+=======
+
+>>>>>>> d26d40423849818a68e6f6732768d5d9d0c377b2
 service iprenew_bnep0 /system/bin/dhcpcd -n
     class main
     disabled
@@ -231,6 +236,7 @@ service rmt_storage /system/bin/rmt_storage /dev/block/mmcblk0p13 /dev/block/mmc
     class core
     user root
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 service htc_ebdlogd /system/bin/htc_ebdlogd -s -k -P 7
@@ -251,3 +257,10 @@ on property:ro.build.tags=test-keys
 on property:ro.build.tags=release-keys
     start htc_ebdlogd_rel
 >>>>>>> 345a48f8a12520ef2d3ddc06c8805ad711430bc3
+=======
+
+on property:service.adb.root=1
+    write /sys/class/android_usb/android0/enable 0
+    restart adbd
+    write /sys/class/android_usb/android0/enable 1
+>>>>>>> d26d40423849818a68e6f6732768d5d9d0c377b2
