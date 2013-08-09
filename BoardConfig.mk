@@ -32,6 +32,7 @@
 -include vendor/htc/ace/BoardConfigVendor.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := spade
+TARGET_CPU_VARIANT := cortex-a8
 
 BOARD_KERNEL_CMDLINE := no_console_suspend=1
 BOARD_KERNEL_RECOVERY_CMDLINE := $(BOARD_KERNEL_CMDLINE) msmsdcc_power_gpio=88
