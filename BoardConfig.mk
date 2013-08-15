@@ -60,6 +60,8 @@ BOARD_FLASH_BLOCK_SIZE := 262144
 
 TARGET_PREBUILT_KERNEL := device/htc/ace/prebuilt/kernel/kernel
 
+TARGET_RECOVERY_FSTAB := device/htc/ace/ramdisk/fstab.spade
+
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 # Vold
