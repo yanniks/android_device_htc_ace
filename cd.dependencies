@@ -1,5 +1,30 @@
 [
 	{
+		"repository": "Mustaavalkosta/android_hardware_libhardware_legacy",
+		"target_path": "hardware/libhardware_legacy",
+		"branch": "cm-11.0"
+	},
+	{
+		"repository": "yanniks/android_packages_apps_proximitysensor",
+		"target_path": "packages/apps/proximitysensor",
+		"branch": "cm-11.0"
+	},
+	{
+		"repository": "cyandream-devices/android_packages_apps_Torch",
+		"target_path": "packages/apps/Torch",
+		"branch": "cd-4.4"
+	},
+	{
+		"repository": "Mustaavalkosta/android_packages_providers_MediaProvider",
+		"target_path": "packages/providers/MediaProvider",
+		"branch": "cm-11.0"
+	},
+	{
+		"repository": "cyandream-devices/android_prebuilts_misc",
+		"target_path": "prebuilts/misc",
+		"branch": "cm-11.0"
+	},
+	{
 		"repository": "cyandream-devices/android_device_htc_msm7x30-common",
 		"target_path": "device/htc/msm7x30-common",
 		"branch": "cd-4.4"
