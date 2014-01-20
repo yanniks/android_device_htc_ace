@@ -1,0 +1,14 @@
+[
+	{
+		"repository": "CyanogenMod/android_hardware_libhardware_legacy"
+	},
+        {
+               	"repository": "CyanogenMod/android_packages_apps_Torch"
+        },
+        {
+               	"repository": "CyanogenMod/android_packages_providers_MediaProvider"
+        },
+        {
+               	"repository": "platform/prebuilts/misc"
+        }
+]
