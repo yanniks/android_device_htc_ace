@@ -111,6 +111,10 @@ PRODUCT_PACKAGES += \
 	sensors.spade \
 	librpc
 
+# Proximity sensor
+PRODUCT_PACKAGES += \
+	ProximitySensor
+
 # Permissions
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
