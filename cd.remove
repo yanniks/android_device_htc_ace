@@ -10,5 +10,9 @@
         },
         {
                	"repository": "platform/prebuilts/misc"
+        },
+        {
+                "repository": "CyanDreamProject/android_packages_apps_Camera2"
         }
+
 ]
