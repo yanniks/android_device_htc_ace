@@ -20,11 +20,6 @@
 		"branch": "cm-11.0"
 	},
 	{
-		"repository": "cyandream-devices/android_prebuilts_misc",
-		"target_path": "prebuilts/misc",
-		"branch": "cm-11.0"
-	},
-	{
 		"repository": "cyandream-devices/android_device_htc_msm7x30-common",
 		"target_path": "device/htc/msm7x30-common",
 		"branch": "cd-4.4"
