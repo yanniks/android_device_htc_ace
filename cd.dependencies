@@ -40,11 +40,6 @@
 		"branch": "cm-11.0"
 	},
 	{
-		"repository": "Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8",
-		"target_path": "prebuilt/linux-x86/toolchain/arm-eabi-4.8",
-		"branch": "master"
-	},
-	{
 		"repository": "Mustaavalkosta/android_hardware_qcom_audio-legacy",
 		"target_path": "hardware/qcom/audio-legacy",
 		"branch": "cm-11.0"
