@@ -7,9 +7,5 @@
         },
         {
                	"repository": "CyanogenMod/android_packages_providers_MediaProvider"
-        },
-        {
-                "repository": "CyanDreamProject/android_packages_apps_Camera2"
         }
-
 ]

@@ -53,10 +53,5 @@
 		"repository": "Mustaavalkosta/android_hardware_qcom_media-legacy",
 		"target_path": "hardware/qcom/media-legacy",
 		"branch": "cm-11.0"
-	},
-        {
-                "repository": "CyanDreamProject/android_packages_apps_Camera2",
-                "target_path": "packages/apps/Camera2",
-                "branch": "cd-4.4-legacy"
-        }
+	}
 ]
