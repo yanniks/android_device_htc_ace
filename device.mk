@@ -28,6 +28,8 @@ DEVICE_PACKAGE_OVERLAYS += device/htc/ace/overlay
 
 COMMON_PATH := device/htc/ace
 
+DUMMY_INCALLUI := true
+
 # Boot ramdisk setup
 PRODUCT_COPY_FILES += \
 	$(COMMON_PATH)/ramdisk/fstab.spade:root/fstab.spade \
