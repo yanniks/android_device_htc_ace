@@ -28,6 +28,9 @@ DEVICE_PACKAGE_OVERLAYS += device/htc/ace/overlay
 
 COMMON_PATH := device/htc/ace
 
+# Dex output
+TARGET_WITH_DEXPREOPT := true
+
 DUMMY_INCALLUI := true
 
 # Boot ramdisk setup
