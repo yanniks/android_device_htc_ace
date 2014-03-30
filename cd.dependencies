@@ -1,6 +1,6 @@
 [
 	{
-		"repository": "Mustaavalkosta/android_hardware_libhardware_legacy",
+		"repository": "AceEnablementProject/android_hardware_libhardware_legacy",
 		"target_path": "hardware/libhardware_legacy",
 		"branch": "cm-11.0"
 	},
@@ -15,7 +15,7 @@
 		"branch": "cd-4.4"
 	},
 	{
-		"repository": "Mustaavalkosta/android_packages_providers_MediaProvider",
+		"repository": "AceEnablementProject/android_packages_providers_MediaProvider",
 		"target_path": "packages/providers/MediaProvider",
 		"branch": "cm-11.0"
 	},
@@ -25,8 +25,8 @@
 		"branch": "cd-4.4"
 	},
 	{
-		"repository": "Mustaavalkosta/htc7x30-3.0",
-		"target_path": "kernel/htc/htc7x30-3.0",
+		"repository": "AceEnablementProject/htc7x30",
+		"target_path": "kernel/htc/htc7x30",
 		"branch": "cm-11.0"
 	},	
 	{
@@ -35,22 +35,22 @@
 		"branch": "cd-4.4"
 	},
 	{
-		"repository": "Mustaavalkosta/android_vendor_qcom_proprietary",
+		"repository": "AceEnablementProject/android_vendor_qcom_proprietary",
 		"target_path": "vendor/qcom/proprietary",
 		"branch": "cm-11.0"
 	},
 	{
-		"repository": "Mustaavalkosta/android_hardware_qcom_audio-legacy",
+		"repository": "AceEnablementProject/android_hardware_qcom_audio-legacy",
 		"target_path": "hardware/qcom/audio-legacy",
 		"branch": "cm-11.0"
 	},
 	{
-		"repository": "Mustaavalkosta/android_hardware_qcom_display-legacy",
+		"repository": "AceEnablementProject/android_hardware_qcom_display-legacy",
 		"target_path": "hardware/qcom/display-legacy",
 		"branch": "cm-11.0"
 	},
 	{
-		"repository": "Mustaavalkosta/android_hardware_qcom_media-legacy",
+		"repository": "AceEnablementProject/android_hardware_qcom_media-legacy",
 		"target_path": "hardware/qcom/media-legacy",
 		"branch": "cm-11.0"
 	}
