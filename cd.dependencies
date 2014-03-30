@@ -25,7 +25,7 @@
 		"branch": "cd-4.4"
 	},
 	{
-		"repository": "AceEnablementProject/htc7x30",
+		"repository": "AceEnablementProject/android_kernel_htc_msm7x30",
 		"target_path": "kernel/htc/htc7x30",
 		"branch": "cm-11.0"
 	},	
